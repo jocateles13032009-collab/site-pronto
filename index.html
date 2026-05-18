@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>👑 Rei do Açaí</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+
+    <a href="index.html" class="logo">👑 Rei do Açaí</a>
+
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <button class="cart-btn" id="abrir-carrinho">
+      🛒 <span id="cart-count">0</span>
+    </button>
+
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div>
+      <h1>O melhor açaí da cidade 👑</h1>
+
+      <p class="lead">
+        Cremoso, gelado e cheio de toppings incríveis.
+      </p>
+
+      <a href="cardapio.html" class="btn">
+        Ver cardápio
+      </a>
+    </div>
+
+    <div class="hero-img">
+      <img src="copo novo.png" alt="Açaí">
+    </div>
+
+  </div>
+</section>
+
+<section id="sobre" class="section">
+  <div class="container">
+
+    <h2>Sobre nós</h2>
+
+    <p>
+      O 👑 Rei do Açaí oferece a melhor experiência em açaí,
+      com ingredientes frescos, diversos acompanhamentos e entrega rápida.
+    </p>
+
+  </div>
+</section>
+
+<section id="contato" class="section section--alt">
+  <div class="container">
+
+    <h2>Contato</h2>
+
+    <form class="form">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Mensagem"></textarea>
+
+      <button class="btn">Enviar</button>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="ano"></span> 👑 Rei do Açaí</p>
+    <p>© <span id="numero"></span> +55 (11) 1234-5678</p>
+  </div>
+</footer>
+
+<script src="js/carrinho.js"></script>
+<script src="js/app.js"></script>
+</body>
+  </html>
